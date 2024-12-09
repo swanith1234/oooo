@@ -1,0 +1,10 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App userData={{"name":"oooo","emailId":"pow@gmail.com","phoneNo":"43857839457","projects":[{"title":"agroNexus","description":"first project","technologies":["React"],"repoLink":"link","_id":"6756e9f1eb146f021c1623e6"}],"resume":"","experiences":[{"companyName":"tekie'sZen","logo":"http://res.cloudinary.com/dgthxi1sd/image/upload/v1733748631/evolumin/ncmab2dolx8ux3jrn7sq.jpg","role":"web developer","description":"first internship","technologiesUsed":[],"duration":"2 months","_id":"6756e9f1eb146f021c1623e7"}],"techStacks":["React","Node.js","java"],"contactDetails":["www.github.com","www.linkedin.com"],"codingProfiles":["www.geksforgeeks.org","www.leetcode.com"],"certifications":["https://res.cloudinary.com/dgthxi1sd/image/upload/v1733530869/evolumin/jv0gl1tyqtccmvtu6auu.png","https://res.cloudinary.com/dgthxi1sd/image/upload/v1733530869/evolumin/jv0gl1tyqtccmvtu6auu.png","https://res.cloudinary.com/dgthxi1sd/image/upload/v1733530869/evolumin/jv0gl1tyqtccmvtu6auu.png","https://res.cloudinary.com/dgthxi1sd/image/upload/v1733530869/evolumin/jv0gl1tyqtccmvtu6auu.png","https://res.cloudinary.com/dgthxi1sd/image/upload/v1733530869/evolumin/jv0gl1tyqtccmvtu6auu.png"],"achievements":[{"title":"swanith","description":"swanith","_id":"6756e9f1eb146f021c1623e8"},{"title":"swanith","description":"swanithswanith","_id":"6756e9f1eb146f021c1623e9"},{"title":"swanith","description":"swanithswanith","_id":"6756e9f1eb146f021c1623ea"},{"title":"swanith","description":"swanithswanithswanith","_id":"6756e9f1eb146f021c1623eb"}],"about":"swanithswanithswanithswanith","profilePhoto":"http://res.cloudinary.com/dgthxi1sd/image/upload/v1733748584/evolumin/rmeyfvtwvbl7cuejau6x.jpg","_id":"6756e9f1eb146f021c1623e5","createdAt":"2024-12-09T13:00:33.875Z","updatedAt":"2024-12-09T13:00:33.875Z","__v":0}} />
+  </StrictMode>,
+)
